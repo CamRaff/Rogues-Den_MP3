@@ -1,131 +1,129 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CamRaff - Milestone Project 3 - Rogues Den
 
-Welcome USER_NAME,
+![displays]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Here is a link to the deployed site: []()
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+For my third Milestone Project on my course through Code Institute via UCP (University centre Peterborough), I thought it would be fun to create my own version of a Dungeons & Dragons character creation/storage site to allow people to keep track of the characters they have, whether it be few or many! In an ideal world, the site I have created would have the capability to allow for the creation of all race/class combinations, however, in order to ensure I can produce the best project I can within the time I have available, I have chosen to limit the race and class choices to those from the Player's Handbook (2014).
 
 ---
 
-Happy coding!
+# Contents
+
+- [User Experience](#user-experience-ux)
+
+  - [User Stories](#user-stories)
+
+- [Design and Development](#design-and-development)
+
+  - [Wireframes](#wireframes)
+
+    - [Desktop Views](#desktop-views)
+
+    - [Mobile Views](#mobile-views)
+
+  - [Images](#images)
+
+---
+
+# User Experience (UX)
+
+## User Stories
+
+### First Time Visitors
+
+- I am new to Dungeons & Dragons and I want to find a website that will allow me to store my characters from my different campaigns.
+- I want to find a website that is straight forward and easy to use. 
+- I want to find a website which has a great vibe and cool visuals.
+
+### Returning Visitors
+
+- I want to be able to update my characters as I level up throughout my campaigns.
+
+### Frequent Visitors
+
+- I want to see if there are any new additions to character creation and other features on the site. 
+
+---
+
+# Design and Development
+
+## Wireframes
+
+Below you can find the inital mock-ups for all of the pages for the site on both desktop and mobile. The wireframes were all created using [Balsamiq](https://balsamiq.com/wireframes/).
+
+### Desktop Views
+
+- #### Home Page
+
+<img src="readme-images/wireframes/home-page.png" alt="Home page image" height="400">
+
+I wanted to keep the home page relatively simple as this is just an introduction, and all of the main focus should be on the character page.
+
+- #### Login/Register Pages
+
+<img src="readme-images/wireframes/login-page.png" alt="Login page image" height="400">
+
+This is the login page which will either log you in or take you to register if not already registered. Clicking log in will take you to the characters page.
+
+<img src="readme-images/wireframes/register-page.png" alt="Register page image"height="400">
+
+This is the register page, very similar to the login page. Clicking submit will take you to the characters page.
+
+- #### Profile Page
+
+<img src="readme-images/wireframes/profile-page.png" alt="Profile page image" height="400">
+
+This is the profile page where you can see your details, and from here update them if you wish. This is where you can logout from your account.
+
+<img src="readme-images/wireframes/edit-account.png" alt="Edit profile page image" height="400">
+
+This is a view of the edit account page.
+
+- #### Character Pages
+
+<img src="readme-images/wireframes/characters.png" alt="All characters page image" height="400">
+
+This is the page where all of the users are stored and from here you can create, view, edit and delete the characters you create. The idea is to have the card that is displayed show the character name, an image of the race they picked, and have a drop down to display the stats of their character.
+
+<img src="readme-images/wireframes/add-character.png" alt="Add characters page image" height="400">
+
+This is the create/add character page, kept relatively simple.
+
+<img src="readme-images/wireframes/character-page.png" alt="Character page image" height="400">
+
+This is how the character will be displayed to the user after they have created them and clicked on the card visible on the character page.
+
+<img src="readme-images/wireframes/edit-character.png" alt="Edit character page image" height="400">
+
+This is the edit character page, very similar to the create/add character page, however the name and race of the character are not changeable once submitted.
+
+<img src="readme-images/wireframes/erase-pop-up.png" alt="Image showing the erase character pop-up" height="400">
+
+This is the defensive programming pop-up to check if they're sure and to notify them that their decision will be final.
+
+### Mobile Views
+
+- #### Home/Login/Register
+
+<img src="readme-images/wireframes/mobile-views.png" alt="Image showing the home, login and register views on mobile" height="400">
+
+- #### Profile/Edit Profile/Characters
+
+<img src="readme-images/wireframes/mobile-views-2.png" alt="Image showing the profile, edit profile and all character views on mobile" height="400">
+
+- #### New Character/Character/Edit Character
+
+<img src="readme-images/wireframes/mobile-views-3.png" alt="image showing the add character, character and edit character views on mobile" height="400">
+
+As you can see, the mobile views simply takes the desktop view and translates it more vertical than horizontal. The erase pop-up will appear the same on mobile as on desktop.
+
+## Images
+
+As I have gone with a Dungeons & Dragons style character creation/storage site, I decided for the site background to have a bit of a dark and grungy dungeon/vault style image. The image was created using the prompt "give me an image of a rogue's den" on [ChatGPT](https://chatgpt.com/)
+
+<img src="static/images/background.webp" alt="Background image for desktop showing a dark and grungy cellar" height="400">
+
+Just incase there were any issues displaying the above image on a smaller device, I also got the below created.
+
+<img src="static/images/mobile-background.webp" alt="Background image for mobile showing a dark and grungy cellar" height="400">
