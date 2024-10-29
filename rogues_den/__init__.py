@@ -19,4 +19,12 @@ db = SQLAlchemy(app)
 # with app.app_context():
 #     db.create_all()
 
-from rogues_den import routes
+login_manager = LoginManager()
+login_manager.login_view = 'views.dashboard'
+login_manager.init_app(app)
+
+@login_manager.user_loader
+def load_user(id):
+    return User.query.get(int(id))
+
+# from rogues_den import routes
